@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 int main(){
 	int i,n,key,pos=0,flag=0;
 	printf("Enter the number of values:");
