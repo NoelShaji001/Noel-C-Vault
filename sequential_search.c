@@ -21,7 +21,7 @@ int main(){
 	if(flag==0){
 		printf("The number not found");
 	}else{
-		printf("The number found and its position is %d",pos);
+		printf("The number  found and its position is %d",pos);
 	}
 	return 0;
 }
