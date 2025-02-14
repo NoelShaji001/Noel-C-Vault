@@ -2,7 +2,7 @@
 #include <math.h>
 int main(){
    int i,n,l,modN,sum=0,temp,nes,count=0;
-   printf("number");
+   printf("Enter your Number");
    scanf("%d",&n);
    temp=n;
    nes=n;
@@ -17,9 +17,9 @@ int main(){
    }
    printf("sum=%d",sum);
    if(sum==temp){
-       printf("The number is armstrong number");
+       printf("The number %d is an armstrong number",temp);
    }else{
-       printf("The number is not armstrong number");
+       printf("The number %d is not an armstrong number",temp);
    }
    return 0;
 }
