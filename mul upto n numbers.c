@@ -11,7 +11,6 @@ int main() {
         for(j=1;j<=l;j++){
             result=i*j;
             printf("%d × %d = %d\n",i,j,result);
-            result=0;
         }
     }
     return 0;
