@@ -6,7 +6,7 @@ int main(){
         scanf("%d",&num);
         temp=num;
         if(num>=0){
-            printf("series=");
+            printf("Series=");
             for(i=1;i<=num;i++){
                 sum=1;
                 for(j=1;j<temp;j++){
